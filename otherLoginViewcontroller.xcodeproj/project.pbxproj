@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5AA2EC41D8B928800FA8505 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA2EC31D8B928800FA8505 /* main.m */; };
+		A5AA2EC71D8B928800FA8505 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA2EC61D8B928800FA8505 /* AppDelegate.m */; };
+		A5AA2ECD1D8B928800FA8505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2ECB1D8B928800FA8505 /* Main.storyboard */; };
+		A5AA2ECF1D8B928800FA8505 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2ECE1D8B928800FA8505 /* Assets.xcassets */; };
+		A5AA2ED21D8B928800FA8505 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2ED01D8B928800FA8505 /* LaunchScreen.storyboard */; };
+		A5AA2EDE1D8B943500FA8505 /* circe-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EDA1D8B943500FA8505 /* circe-bold.ttf */; };
+		A5AA2EDF1D8B943500FA8505 /* circe-extrabold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EDB1D8B943500FA8505 /* circe-extrabold.ttf */; };
+		A5AA2EE01D8B943500FA8505 /* circe-light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EDC1D8B943500FA8505 /* circe-light.ttf */; };
+		A5AA2EE11D8B943500FA8505 /* circe-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EDD1D8B943500FA8505 /* circe-regular.ttf */; };
+		A5AA2EE41D8B94C700FA8505 /* loginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA2EE31D8B94C700FA8505 /* loginVC.m */; };
+		A5AA2EE71D8B954500FA8505 /* loginbg.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EE61D8B954500FA8505 /* loginbg.png */; };
+		A5AA2EED1D8B9FF300FA8505 /* HelveticaNeueLTPro-Lt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EE91D8B9FF300FA8505 /* HelveticaNeueLTPro-Lt.otf */; };
+		A5AA2EEE1D8B9FF300FA8505 /* HelveticaNeueLTPro-Md.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EEA1D8B9FF300FA8505 /* HelveticaNeueLTPro-Md.ttf */; };
+		A5AA2EEF1D8B9FF300FA8505 /* HelveticaNeueLTPro-Th.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EEB1D8B9FF300FA8505 /* HelveticaNeueLTPro-Th.otf */; };
+		A5AA2EF01D8B9FF300FA8505 /* HelveticaNeueLTPro-UltLt.otf in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EEC1D8B9FF300FA8505 /* HelveticaNeueLTPro-UltLt.otf */; };
+		A5AA2EF31D8BAC7600FA8505 /* logmeinvc.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA2EF21D8BAC7600FA8505 /* logmeinvc.m */; };
+		A5AA2EF51D8BCAD700FA8505 /* closebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = A5AA2EF41D8BCAD700FA8505 /* closebtn.png */; };
+		A5AA2EF81D8BCFA700FA8505 /* registervc.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA2EF71D8BCFA700FA8505 /* registervc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5AA2EBF1D8B928800FA8505 /* otherLoginViewcontroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otherLoginViewcontroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5AA2EC31D8B928800FA8505 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5AA2EC51D8B928800FA8505 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5AA2EC61D8B928800FA8505 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5AA2ECC1D8B928800FA8505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5AA2ECE1D8B928800FA8505 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5AA2ED11D8B928800FA8505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5AA2ED31D8B928800FA8505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AA2EDA1D8B943500FA8505 /* circe-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circe-bold.ttf"; sourceTree = "<group>"; };
+		A5AA2EDB1D8B943500FA8505 /* circe-extrabold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circe-extrabold.ttf"; sourceTree = "<group>"; };
+		A5AA2EDC1D8B943500FA8505 /* circe-light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circe-light.ttf"; sourceTree = "<group>"; };
+		A5AA2EDD1D8B943500FA8505 /* circe-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "circe-regular.ttf"; sourceTree = "<group>"; };
+		A5AA2EE21D8B94C700FA8505 /* loginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = loginVC.h; sourceTree = "<group>"; };
+		A5AA2EE31D8B94C700FA8505 /* loginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = loginVC.m; sourceTree = "<group>"; };
+		A5AA2EE61D8B954500FA8505 /* loginbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbg.png; sourceTree = "<group>"; };
+		A5AA2EE91D8B9FF300FA8505 /* HelveticaNeueLTPro-Lt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTPro-Lt.otf"; sourceTree = "<group>"; };
+		A5AA2EEA1D8B9FF300FA8505 /* HelveticaNeueLTPro-Md.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTPro-Md.ttf"; sourceTree = "<group>"; };
+		A5AA2EEB1D8B9FF300FA8505 /* HelveticaNeueLTPro-Th.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTPro-Th.otf"; sourceTree = "<group>"; };
+		A5AA2EEC1D8B9FF300FA8505 /* HelveticaNeueLTPro-UltLt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HelveticaNeueLTPro-UltLt.otf"; sourceTree = "<group>"; };
+		A5AA2EF11D8BAC7600FA8505 /* logmeinvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = logmeinvc.h; sourceTree = "<group>"; };
+		A5AA2EF21D8BAC7600FA8505 /* logmeinvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = logmeinvc.m; sourceTree = "<group>"; };
+		A5AA2EF41D8BCAD700FA8505 /* closebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = closebtn.png; sourceTree = "<group>"; };
+		A5AA2EF61D8BCFA700FA8505 /* registervc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = registervc.h; sourceTree = "<group>"; };
+		A5AA2EF71D8BCFA700FA8505 /* registervc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registervc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5AA2EBC1D8B928800FA8505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5AA2EB61D8B928800FA8505 = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EE81D8B9FF300FA8505 /* HelveticaNeueLTPro-Md */,
+				A5AA2ED91D8B943500FA8505 /* circeFonts */,
+				A5AA2EE51D8B954500FA8505 /* images */,
+				A5AA2EC11D8B928800FA8505 /* otherLoginViewcontroller */,
+				A5AA2EC01D8B928800FA8505 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5AA2EC01D8B928800FA8505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EBF1D8B928800FA8505 /* otherLoginViewcontroller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5AA2EC11D8B928800FA8505 /* otherLoginViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EC51D8B928800FA8505 /* AppDelegate.h */,
+				A5AA2EC61D8B928800FA8505 /* AppDelegate.m */,
+				A5AA2EE21D8B94C700FA8505 /* loginVC.h */,
+				A5AA2EE31D8B94C700FA8505 /* loginVC.m */,
+				A5AA2EF11D8BAC7600FA8505 /* logmeinvc.h */,
+				A5AA2EF21D8BAC7600FA8505 /* logmeinvc.m */,
+				A5AA2EF61D8BCFA700FA8505 /* registervc.h */,
+				A5AA2EF71D8BCFA700FA8505 /* registervc.m */,
+				A5AA2ECB1D8B928800FA8505 /* Main.storyboard */,
+				A5AA2ECE1D8B928800FA8505 /* Assets.xcassets */,
+				A5AA2ED01D8B928800FA8505 /* LaunchScreen.storyboard */,
+				A5AA2ED31D8B928800FA8505 /* Info.plist */,
+				A5AA2EC21D8B928800FA8505 /* Supporting Files */,
+			);
+			path = otherLoginViewcontroller;
+			sourceTree = "<group>";
+		};
+		A5AA2EC21D8B928800FA8505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EC31D8B928800FA8505 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5AA2ED91D8B943500FA8505 /* circeFonts */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EDA1D8B943500FA8505 /* circe-bold.ttf */,
+				A5AA2EDB1D8B943500FA8505 /* circe-extrabold.ttf */,
+				A5AA2EDC1D8B943500FA8505 /* circe-light.ttf */,
+				A5AA2EDD1D8B943500FA8505 /* circe-regular.ttf */,
+			);
+			path = circeFonts;
+			sourceTree = "<group>";
+		};
+		A5AA2EE51D8B954500FA8505 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EF41D8BCAD700FA8505 /* closebtn.png */,
+				A5AA2EE61D8B954500FA8505 /* loginbg.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		A5AA2EE81D8B9FF300FA8505 /* HelveticaNeueLTPro-Md */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA2EE91D8B9FF300FA8505 /* HelveticaNeueLTPro-Lt.otf */,
+				A5AA2EEA1D8B9FF300FA8505 /* HelveticaNeueLTPro-Md.ttf */,
+				A5AA2EEB1D8B9FF300FA8505 /* HelveticaNeueLTPro-Th.otf */,
+				A5AA2EEC1D8B9FF300FA8505 /* HelveticaNeueLTPro-UltLt.otf */,
+			);
+			path = "HelveticaNeueLTPro-Md";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5AA2EBE1D8B928800FA8505 /* otherLoginViewcontroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5AA2ED61D8B928800FA8505 /* Build configuration list for PBXNativeTarget "otherLoginViewcontroller" */;
+			buildPhases = (
+				A5AA2EBB1D8B928800FA8505 /* Sources */,
+				A5AA2EBC1D8B928800FA8505 /* Frameworks */,
+				A5AA2EBD1D8B928800FA8505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = otherLoginViewcontroller;
+			productName = otherLoginViewcontroller;
+			productReference = A5AA2EBF1D8B928800FA8505 /* otherLoginViewcontroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5AA2EB71D8B928800FA8505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Dong Quoc";
+				TargetAttributes = {
+					A5AA2EBE1D8B928800FA8505 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A5AA2EBA1D8B928800FA8505 /* Build configuration list for PBXProject "otherLoginViewcontroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5AA2EB61D8B928800FA8505;
+			productRefGroup = A5AA2EC01D8B928800FA8505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5AA2EBE1D8B928800FA8505 /* otherLoginViewcontroller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5AA2EBD1D8B928800FA8505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA2EE71D8B954500FA8505 /* loginbg.png in Resources */,
+				A5AA2EDF1D8B943500FA8505 /* circe-extrabold.ttf in Resources */,
+				A5AA2EEE1D8B9FF300FA8505 /* HelveticaNeueLTPro-Md.ttf in Resources */,
+				A5AA2EF51D8BCAD700FA8505 /* closebtn.png in Resources */,
+				A5AA2ED21D8B928800FA8505 /* LaunchScreen.storyboard in Resources */,
+				A5AA2EE11D8B943500FA8505 /* circe-regular.ttf in Resources */,
+				A5AA2ECF1D8B928800FA8505 /* Assets.xcassets in Resources */,
+				A5AA2EDE1D8B943500FA8505 /* circe-bold.ttf in Resources */,
+				A5AA2EE01D8B943500FA8505 /* circe-light.ttf in Resources */,
+				A5AA2EF01D8B9FF300FA8505 /* HelveticaNeueLTPro-UltLt.otf in Resources */,
+				A5AA2EED1D8B9FF300FA8505 /* HelveticaNeueLTPro-Lt.otf in Resources */,
+				A5AA2ECD1D8B928800FA8505 /* Main.storyboard in Resources */,
+				A5AA2EEF1D8B9FF300FA8505 /* HelveticaNeueLTPro-Th.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5AA2EBB1D8B928800FA8505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AA2EC71D8B928800FA8505 /* AppDelegate.m in Sources */,
+				A5AA2EF81D8BCFA700FA8505 /* registervc.m in Sources */,
+				A5AA2EE41D8B94C700FA8505 /* loginVC.m in Sources */,
+				A5AA2EF31D8BAC7600FA8505 /* logmeinvc.m in Sources */,
+				A5AA2EC41D8B928800FA8505 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5AA2ECB1D8B928800FA8505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AA2ECC1D8B928800FA8505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5AA2ED01D8B928800FA8505 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5AA2ED11D8B928800FA8505 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5AA2ED41D8B928800FA8505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5AA2ED51D8B928800FA8505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5AA2ED71D8B928800FA8505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = otherLoginViewcontroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gvtechcom.otherLoginViewcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5AA2ED81D8B928800FA8505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = otherLoginViewcontroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gvtechcom.otherLoginViewcontroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5AA2EBA1D8B928800FA8505 /* Build configuration list for PBXProject "otherLoginViewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AA2ED41D8B928800FA8505 /* Debug */,
+				A5AA2ED51D8B928800FA8505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5AA2ED61D8B928800FA8505 /* Build configuration list for PBXNativeTarget "otherLoginViewcontroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5AA2ED71D8B928800FA8505 /* Debug */,
+				A5AA2ED81D8B928800FA8505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5AA2EB71D8B928800FA8505 /* Project object */;
+}
